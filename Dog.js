@@ -1,18 +1,16 @@
-// Create the Dog class here
-
 class Dog {
-    constructor(data) {
-        Object.assign(this, data)
-    }
-    
-    setMatchStatus(bool) {
-        this.hasBeenLiked = bool
-        this.hasBeenSwiped = true
-    }
-    
-    getDogHtml() {
-        const { name, avatar, age, bio } = this
-        return `
+  constructor(data) {
+    Object.assign(this, data);
+  }
+
+  setMatchStatus(bool) {
+    this.hasBeenLiked = bool;
+    this.hasBeenSwiped = true;
+  }
+
+  getDogHtml() {
+    const { name, avatar, age, bio } = this;
+    return `
             <div class="feature-suggestion">
                 <div class="dog-info">
                     <h4> ${name}, ${age} </h4>
@@ -21,8 +19,8 @@ class Dog {
                     </div>
                 </div>
                 <img class="dog-img" src="${avatar}">
-            </div>`
-    }
+            </div>`;
+  }
 }
 
-export default Dog
+export default Dog;

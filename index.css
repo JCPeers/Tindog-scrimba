@@ -1,21 +1,80 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  background: #eff7f6;
 }
 
+/*      header section     */
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  /* width: 96%; */
+}
+
+.header-icons {
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  padding: 50px;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+  padding: 40px 0;
+}
+
+/*     main section      */
+
 #card .dog-img {
-    width: 100%;
+  width: 100%;
+  border-radius: 50px;
+  margin: 0 20px;
 }
 
 #card {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .dog-info {
-    position: absolute;
-    color: white;
-    bottom: 10px;
-    left: 10px;
+  position: absolute;
+  color: white;
+  bottom: 40px;
+  left: 60px;
 }
 
+h4 {
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 0;
+}
 
+.dog-bio {
+  font-size: 32px;
+  font-weight: 300;
+  padding-top: 0;
+}
+
+/*   footer section   */
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  margin: 42px 16px;
+  background: white;
+  border: 1px solid #eff7f6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-img {
+  height: 80px;
+  width: 80px;
+}
