@@ -1,6 +1,7 @@
 body {
   font-family: "Ubuntu", sans-serif;
   background: #eff7f6;
+  max-width: 90%;
 }
 
 /*      header section     */
