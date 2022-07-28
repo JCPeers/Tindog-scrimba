@@ -23,6 +23,22 @@ export const dogs = [
     hasBeenSwiped: false,
     hasBeenLiked: false,
   },
+  {
+    name: "Milo",
+    avatar: "images/dog-milo.jpg",
+    age: 21,
+    bio: "Want to roll with me?",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Poppy",
+    avatar: "images/dog-poppy.jpg",
+    age: 33,
+    bio: "I just want someone to pick flowers for?",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
 ];
 
 // Remember to export the data!
