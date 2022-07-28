@@ -27,6 +27,40 @@ header {
 
 /*     main section      */
 
+#main-section {
+  position: relative;
+}
+
+.like-badge {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-20deg);
+  height: 250px;
+  width: 450px;
+  top: 120px;
+  left: 100px;
+}
+
+.like-badge-clicked {
+  display: block;
+}
+
+.nope-badge {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-20deg);
+  height: 250px;
+  width: 450px;
+  top: 120px;
+  left: 100px;
+}
+
+.nope-badge-clicked {
+  display: block;
+}
+
 #card .dog-img {
   width: 100%;
   border-radius: 50px;
